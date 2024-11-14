@@ -1,10 +1,10 @@
 <p align="center">
-<img src="logo.png" />
+<img src="./logo.png" />
 </p>
 
-[![Static Badge](https://img.shields.io/badge/Version-View-%20green)](./version.txt "1.2.0.1")
+[![Static Badge](https://img.shields.io/badge/Version-View-%20green)](./version.txt "1.3.0.0")
 [![Static Badge](https://img.shields.io/badge/PIP%20-%20View-blue)](https://pypi.org/project/bivittatusDB/)
-![Static Badge](https://img.shields.io/badge/MajorBuild-1.2.0.1-%20green)
+![Static Badge](https://img.shields.io/badge/MajorBuild-1.3.0.0-%20green)
 ![Static Badge](https://img.shields.io/badge/Language%20-%20Python%20(3.x)-blue)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=HarbingerOfFire_bivittatusDB&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=HarbingerOfFire_bivittatusDB)
 
@@ -26,27 +26,29 @@ Installation is now available through pip, via the latest release. To get the la
 ```bash
 pip install bivittatusDB
 ```
-The last build is unavailable via pip at this time. Based on the [release schedule](https://github.com/BivittatusDB/bivittatusDB/wiki/dbed-0001), release 2.0.0.0 should be released 08/01/2025. The closest working version of build 1.0.0.0 available on PyPi is v1.0.0.1
+The last build is unavailable via pip at this time. Based on the [release schedule](https://github.com/HarbingerOfFire/bivittatusDB/wiki/dbed-0001), release 2.0.0.0 should be released 08/01/2025. The closest working version of build 1.0.0.0 available on PyPi is v1.0.0.1
 ```bash
 pip install bivittatusDB==1.0.0.1
 ```
 
 ## Examples
-See the examples directory and [wiki](https://github.com/BivittatusDB/BivittatusDB) for examples off different operations.
+See the examples directory and [wiki](https://github.com/HarbingerOfFire/PYDB/wiki) for examples off different operations.
 
 ## Usage
 1. clone the repo and cd into the BivitattusDB directroy
 2. Import bivittatusDB into your python file/interpreter.
-3. Follow the information from the [wiki](https://github.com/BivittatusDB/BivittatusDB) for more info on specific usage
+3. Follow the information from the [wiki](https://github.com/HarbingerOfFire/PYDB/wiki) for more info on specific usage
 
 ## Dependencies
-The databases are saved in hybrid-asymmetrically encrypted and therefore need encryption handlers, as seen in the [`requirements.txt`](https://github.com/BivittatusDB/BivittatusDB/.github/requirements.txt) file.
+The databases are saved in hybrid-asymmetrically encrypted and therefore need encryption handlers, as seen in the [`requirements.txt`](.github/requirements.txt) file.
 ```bash
 pip install -r .github/requirements.txt
 ```
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to the project, please fork the repository and submit a pull request with your changes.See [Contributing](.github/CONTRIBUTING.md) & [Code of Cunduct](.github/CODE_OF_CONDUCT.md)
+If you don't know where to get started, you can check out The pinned Issue ([#36](https://github.com/BivittatusDB/BivittatusDB/issues/36)) for some of the current simple bugs. 
+If you want to request a feature, please open a issue as a Feture Request and describe to us how it will work and why you think it is important. We will review it and close the issue when the request is either implemented or dismissed. If the idea is dismissed, we will give an explanation for why we will not implement the feature ourselves, but you can also add it in your own fork if you still desire it. 
 
 ## License
 This project is licensed under the [MIT License](.github/LICENSE).
@@ -54,4 +56,4 @@ This project is licensed under the [MIT License](.github/LICENSE).
 This README.md file provides an overview of the operator-based relational database management system implemented in Python, detailing its current features, future plans, usage instructions, dependencies, and contribution guidelines. Additionally, it outlines the licensing information for the project.
 
 ## Known Issues: 
-Due to recent updates, no issues are known at this time. All example files are acting as expected. We are accepting issues if you find anything that we have missed.
+Our code always has some bug in it. We catch most of the major issues, but you can always find the latest ones in the [Issues Tab](https://github.com/BivittatusDB/BivittatusDB/issues). We also have a lot of small bugs found in the pinned issue. 
